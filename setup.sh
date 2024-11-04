@@ -26,7 +26,7 @@ check_env() {
 
 install() {
   # Clone the repository
-  git clone https://github.com/IoTsec/Z3sec.git $RALPM_TMP_DIR/Z3sec
+  git clone https://github.com/RAL0S/Z3sec-code.git $RALPM_TMP_DIR/Z3sec
 
   # Install dependencies
   cd $RALPM_TMP_DIR/Z3sec
